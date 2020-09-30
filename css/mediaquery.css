@@ -1,0 +1,321 @@
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar-default .navbar-toggle {
+        display: inline-block;
+        position: absolute;
+        right: 10px;
+    }
+    .navbar-nav {
+        display: none;
+    }
+    header .hbot .btn-right {
+        display: none;
+    }
+    h1 {
+        font-size: 34px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 31px;
+        text-align: center;
+    }
+    h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+    h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+    h5 {
+        font-size: 18px;
+        text-align: center;
+    }
+    p {
+        font-size: 12px;
+        text-align: center;
+    }
+    header .htop {
+        display: none;
+    }
+    main #jumbo .jumbo-box {
+        padding: 30px 0;
+    }
+    main #jumbo .card-jumbo {
+        margin: 0 auto;
+        width: 46%;
+    }
+    main #jumbo .card-jumbo .panel .panel-footer .box-btn .btn {
+        padding: 10px 12px;
+    }
+    main #jumbo .terms {
+        margin-left: unset;
+        padding-bottom: 50px;
+    }
+    main #partner .col-lg-2 {
+        text-align: center;
+    }
+    main #deploy .container:first-child .row .col-lg-12 .box-text {
+        padding: unset;
+    }
+    main #deploy .container:last-child .row .col-lg-4 .box-list {
+        padding: unset;
+        margin-bottom: 40px;
+    }
+    main #deploy .container:last-child .row .col-lg-6 {
+        text-align: left;
+    }
+    main #slide .container:first-child .row .col-lg-12 .box-text {
+        padding: unset;
+        margin-top: 50px;
+    }
+    main #slide .container:first-child .row .col-lg-12 .box-slide .carousel-control.left,
+    .carousel-control.right {
+        display: none;
+    }
+    main #list {
+        padding: 20px;
+    }
+    main #list .box-list {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    main #list .box-list:last-child {
+        margin-bottom: 50px;
+    }
+    main #test {
+        padding: unset;
+    }
+    main #test .container:first-child .row .col-lg-12 .box-text {
+        padding: unset;
+        padding-top: 30px;
+    }
+    main #test .container:last-child .row .col-lg-6 .box-wrap {
+        margin: 0 auto;
+        width: 50%;
+    }
+    main #test .container:last-child .row .col-lg-6:first-child .box-wrap {
+        padding-top: 50px;
+    }
+    main #test .container:last-child .row .col-lg-6:last-child .box-wrap {
+        padding-bottom: 50px;
+    }
+    main #slide-2 {
+        padding: 50px 0;
+    }
+    main #slide-2 .container .row .col-lg-12 .box-text {
+        padding: unset;
+    }
+    main #slide-2 .container .row .col-lg-12 .box-slide .carousel-control.left,
+    .carousel-control.right {
+        display: none;
+    }
+    main #slide-2 .container .row .col-lg-12 .box-slide .box-wrap {
+        width: 100%;
+        padding: 60px;
+    }
+    main #cta .container .row .col-lg-6:last-child .btn-cta {
+        text-align: center;
+    }
+    main #cta .container .row .col-lg-6:first-child .cta-title h2 {
+        font-size: 39px;
+    }
+    footer {
+        padding: 60px 20px;
+    }
+    footer h5 {
+        text-align: left;
+    }
+    footer .container .row .col-lg-12 .footbottom {
+        border-top: 1px solid hsla(0, 0%, 100%, 0.2);
+    }
+    footer .container .row .col-lg-2 .foot-list {
+        margin-bottom: 50px;
+    }
+    footer .container .row .col-lg-12 .footbottom .fleft .img-box,
+    .copy {
+        float: left;
+    }
+    footer .container .row .col-lg-12 .footbottom .fleft .img-box {
+        width: 20%;
+    }
+    footer .container .row .col-lg-12 .footbottom .fleft .img-box img {
+        position: relative;
+        top: 11px;
+    }
+    footer .container .row .col-lg-12 .footbottom .fleft .copy {
+        width: 80%;
+        padding: 20px 0;
+    }
+    footer .container .row .col-lg-12 .footbottom .fright {
+        float: left;
+        margin-top: 30px;
+    }
+}
+
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    h1 {
+        font-size: 34px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 31px;
+        text-align: center;
+    }
+    h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+    h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+    h5 {
+        font-size: 18px;
+        text-align: center;
+    }
+    p {
+        font-size: 12px;
+        text-align: center;
+    }
+    header .htop {
+        display: none;
+    }
+    main #jumbo .jumbo-box {
+        padding: 30px 0;
+    }
+    main #jumbo .card-jumbo {
+        margin-left: unset;
+        width: 100%;
+        margin-top: unset;
+    }
+    main #jumbo .card-jumbo .panel .panel-footer .box-btn .btn {
+        padding: 10px 12px;
+    }
+    main #jumbo .terms {
+        margin-left: unset;
+        padding-bottom: 50px;
+    }
+    main #partner .col-lg-2 {
+        text-align: center;
+    }
+    main #deploy .container:first-child .row .col-lg-12 .box-text {
+        padding: unset;
+    }
+    main #deploy .container:last-child .row .col-lg-4 .box-list {
+        padding: unset;
+        margin-bottom: 40px;
+    }
+    main #deploy .container:last-child .row .col-lg-4 .box-list ul {
+        display: inline-flex;
+    }
+    main #deploy .container:last-child .row .col-lg-4 .box-list ul li {
+        border: unset;
+        border-bottom: 1px solid #e5e8ed;
+    }
+    main #deploy .container:last-child .row .col-lg-4 .box-list ul li:first-child {
+        border: unset;
+        border-bottom: 1px solid rgba(3, 27, 78, 1);
+    }
+    main #deploy .container:last-child .row .col-lg-6 {
+        text-align: center;
+    }
+    main #slide .container:first-child .row .col-lg-12 .box-text {
+        padding: unset;
+        margin-top: 50px;
+    }
+    main #slide .container:first-child .row .col-lg-12 .box-slide .carousel-control.left,
+    .carousel-control.right {
+        display: none;
+    }
+    main #list {
+        padding: 20px;
+    }
+    main #list .box-list {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    main #list .box-list:last-child {
+        margin-bottom: 50px;
+    }
+    main #test {
+        padding: unset;
+    }
+    main #test .container:first-child .row .col-lg-12 .box-text {
+        padding: unset;
+        padding-top: 30px;
+    }
+    main #test .container:last-child .row .col-lg-6 .box-wrap {
+        margin: unset;
+    }
+    main #test .container:last-child .row .col-lg-6:first-child .box-wrap {
+        padding-top: 50px;
+    }
+    main #test .container:last-child .row .col-lg-6:last-child .box-wrap {
+        padding-bottom: 50px;
+    }
+    main #slide-2 {
+        padding: 50px 0;
+    }
+    main #slide-2 .container .row .col-lg-12 .box-text {
+        padding: unset;
+    }
+    main #slide-2 .container .row .col-lg-12 .box-slide .carousel-control.left,
+    .carousel-control.right {
+        display: none;
+    }
+    main #slide-2 .container .row .col-lg-12 .box-slide .box-wrap {
+        width: 100%;
+        padding: 60px;
+    }
+    main #cta .container .row .col-lg-6:last-child .btn-cta {
+        text-align: center;
+    }
+    main #cta .container .row .col-lg-6:first-child .cta-title h2 {
+        font-size: 39px;
+    }
+    footer {
+        padding: 60px 20px;
+    }
+    footer h5 {
+        text-align: left;
+    }
+    footer .container .row .col-lg-12 .footbottom {
+        border: unset;
+    }
+    footer .container .row .col-lg-2 .foot-list {
+        margin-bottom: 50px;
+    }
+    footer .container .row .col-lg-12 .footbottom .fleft .img-box,
+    .copy {
+        float: left;
+    }
+    footer .container .row .col-lg-12 .footbottom .fleft .img-box {
+        width: 20%;
+    }
+    footer .container .row .col-lg-12 .footbottom .fleft .img-box img {
+        position: relative;
+        top: 11px;
+    }
+    footer .container .row .col-lg-12 .footbottom .fleft .copy {
+        width: 80%;
+        padding: 20px;
+    }
+    footer .container .row .col-lg-12 .footbottom .fright {
+        float: unset;
+        margin-top: 30px;
+    }
+}
+
+
+/* fine smart */
