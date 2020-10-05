@@ -191,6 +191,7 @@ header .hbot .btn-right .btn-p {
 
 main #jumbo {
     min-height: 500px;
+    background-image: url("../img/bghome.svg");
 }
 
 main #jumbo .jumbo-box {
@@ -513,6 +514,7 @@ main #list .container:first-child .row .col-lg-3 .box-list .text-box a:after {
 
 main #test {
     background: #031b4e;
+    background-image: url("../img/bg-map-solid.svg");
     padding: 80px;
 }
 
@@ -686,6 +688,7 @@ main #slide-2 .container .row .col-lg-12 .box-slide .carousel-control.left,
 
 main #cta {
     padding: 50px 0;
+    background-image: url("../img/bg-home-cta.svg");
 }
 
 main #cta .container .row .col-lg-6:first-child .cta-title h2 {
